@@ -1,5 +1,8 @@
 # File Descriptions
+
+bash```
 create_list.py
+```
 
 Scans a directory for video files and generates a text-based playlist (.txt) containing all detected videos, sorted alphabetically.
 
@@ -16,8 +19,6 @@ removevideo.py
 Flattens a directory structure by moving .mp4 files out of subfolders back into the main directory.
 
 # Notes
-Designed for local media organization, particularly anime episode collections.
-
-Some scripts assume specific filename formats (e.g., episode number parsing).
-
-mpv must be installed and available in the system PATH for playlist playback.
+- Designed for local media organization, particularly video collections.
+- Some scripts assume specific filename formats. The user may change the code (e.g., number parsing).
+- Some video players like mpv must be installed and available in the system PATH for playlist playback.
